@@ -4,7 +4,6 @@ public class User {
     private final String name;
 
     public User(String name) {
-        // ✅ Allowed now (code before super)
         name = name == null ? "Anonymous" : name.trim();
         this.name = name;
     }
